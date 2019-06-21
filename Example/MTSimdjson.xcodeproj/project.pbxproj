@@ -1,0 +1,784 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		241F78A822BCCFF0002C4364 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F78A722BCCFF0002C4364 /* AppDelegate.m */; };
+		241F78AB22BCCFF0002C4364 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F78AA22BCCFF0002C4364 /* ViewController.m */; };
+		241F78AE22BCCFF0002C4364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241F78AC22BCCFF0002C4364 /* Main.storyboard */; };
+		241F78B022BCCFF1002C4364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 241F78AF22BCCFF1002C4364 /* Assets.xcassets */; };
+		241F78B322BCCFF1002C4364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241F78B122BCCFF1002C4364 /* LaunchScreen.storyboard */; };
+		241F78B622BCCFF1002C4364 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F78B522BCCFF1002C4364 /* main.m */; };
+		241F78C022BCCFF2002C4364 /* MTSimdjsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F78BF22BCCFF2002C4364 /* MTSimdjsonTests.m */; };
+		241F78CB22BCCFF2002C4364 /* MTSimdjsonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 241F78CA22BCCFF2002C4364 /* MTSimdjsonUITests.m */; };
+		241F78EE22BCD004002C4364 /* libsimdjson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 241F78D922BCD004002C4364 /* libsimdjson.a */; };
+		241F78EF22BCD004002C4364 /* MTJSONSerialization.mm in Sources */ = {isa = PBXBuildFile; fileRef = 241F78E122BCD004002C4364 /* MTJSONSerialization.mm */; };
+		241F78F322BCD1D8002C4364 /* package.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78F122BCD1D8002C4364 /* package.json */; };
+		241F78F422BCD1D8002C4364 /* package-lock.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78F222BCD1D8002C4364 /* package-lock.json */; };
+		241F791422BCD1F6002C4364 /* marine_ik.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78F622BCD1F6002C4364 /* marine_ik.json */; };
+		241F791522BCD1F6002C4364 /* update-center.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78F722BCD1F6002C4364 /* update-center.json */; };
+		241F791622BCD1F6002C4364 /* github_events.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78F822BCD1F6002C4364 /* github_events.json */; };
+		241F791722BCD1F6002C4364 /* mesh.pretty.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78F922BCD1F6002C4364 /* mesh.pretty.json */; };
+		241F791822BCD1F6002C4364 /* gsoc-2018.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78FA22BCD1F6002C4364 /* gsoc-2018.json */; };
+		241F791922BCD1F6002C4364 /* mesh.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78FB22BCD1F6002C4364 /* mesh.json */; };
+		241F791A22BCD1F6002C4364 /* instruments.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78FC22BCD1F6002C4364 /* instruments.json */; };
+		241F791B22BCD1F6002C4364 /* twitterescaped.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78FD22BCD1F6002C4364 /* twitterescaped.json */; };
+		241F791C22BCD1F6002C4364 /* random.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F78FE22BCD1F6002C4364 /* random.json */; };
+		241F791D22BCD1F6002C4364 /* truenull.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790022BCD1F6002C4364 /* truenull.json */; };
+		241F791E22BCD1F6002C4364 /* demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790122BCD1F6002C4364 /* demo.json */; };
+		241F791F22BCD1F6002C4364 /* flatadversarial.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790222BCD1F6002C4364 /* flatadversarial.json */; };
+		241F792022BCD1F6002C4364 /* adversarial.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790322BCD1F6002C4364 /* adversarial.json */; };
+		241F792122BCD1F6002C4364 /* google_maps_api_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790522BCD1F6002C4364 /* google_maps_api_response.json */; };
+		241F792222BCD1F6002C4364 /* che-2.geo.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790622BCD1F6002C4364 /* che-2.geo.json */; };
+		241F792322BCD1F6002C4364 /* che-3.geo.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790722BCD1F6002C4364 /* che-3.geo.json */; };
+		241F792422BCD1F6002C4364 /* twitter_api_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790822BCD1F6002C4364 /* twitter_api_response.json */; };
+		241F792522BCD1F6002C4364 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 241F790922BCD1F6002C4364 /* README.md */; };
+		241F792622BCD1F6002C4364 /* che-1.geo.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790A22BCD1F6002C4364 /* che-1.geo.json */; };
+		241F792722BCD1F6002C4364 /* twitter_api_compact_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790B22BCD1F6002C4364 /* twitter_api_compact_response.json */; };
+		241F792822BCD1F6002C4364 /* google_maps_api_compact_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790C22BCD1F6002C4364 /* google_maps_api_compact_response.json */; };
+		241F792922BCD1F6002C4364 /* repeat.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790D22BCD1F6002C4364 /* repeat.json */; };
+		241F792A22BCD1F6002C4364 /* twitter_timeline.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790E22BCD1F6002C4364 /* twitter_timeline.json */; };
+		241F792B22BCD1F6002C4364 /* numbers.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F790F22BCD1F6002C4364 /* numbers.json */; };
+		241F792C22BCD1F6002C4364 /* canada.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F791022BCD1F6002C4364 /* canada.json */; };
+		241F792D22BCD1F6002C4364 /* twitter.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F791122BCD1F6002C4364 /* twitter.json */; };
+		241F792E22BCD1F6002C4364 /* apache_builds.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F791222BCD1F6002C4364 /* apache_builds.json */; };
+		241F792F22BCD1F6002C4364 /* citm_catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 241F791322BCD1F6002C4364 /* citm_catalog.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		241F78BC22BCCFF2002C4364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241F789B22BCCFF0002C4364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241F78A222BCCFF0002C4364;
+			remoteInfo = MTSimdjson;
+		};
+		241F78C722BCCFF2002C4364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 241F789B22BCCFF0002C4364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241F78A222BCCFF0002C4364;
+			remoteInfo = MTSimdjson;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		241F78A322BCCFF0002C4364 /* MTSimdjson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTSimdjson.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		241F78A622BCCFF0002C4364 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		241F78A722BCCFF0002C4364 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		241F78A922BCCFF0002C4364 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		241F78AA22BCCFF0002C4364 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		241F78AD22BCCFF0002C4364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		241F78AF22BCCFF1002C4364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		241F78B222BCCFF1002C4364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		241F78B422BCCFF1002C4364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241F78B522BCCFF1002C4364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		241F78BB22BCCFF2002C4364 /* MTSimdjsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTSimdjsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241F78BF22BCCFF2002C4364 /* MTSimdjsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTSimdjsonTests.m; sourceTree = "<group>"; };
+		241F78C122BCCFF2002C4364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241F78C622BCCFF2002C4364 /* MTSimdjsonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTSimdjsonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		241F78CA22BCCFF2002C4364 /* MTSimdjsonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTSimdjsonUITests.m; sourceTree = "<group>"; };
+		241F78CC22BCCFF2002C4364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		241F78D922BCD004002C4364 /* libsimdjson.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libsimdjson.a; sourceTree = "<group>"; };
+		241F78DA22BCD004002C4364 /* padded_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padded_string.h; sourceTree = "<group>"; };
+		241F78DB22BCD004002C4364 /* MTJSONSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTJSONSerialization.h; sourceTree = "<group>"; };
+		241F78DC22BCD004002C4364 /* jsoncharutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsoncharutils.h; sourceTree = "<group>"; };
+		241F78DD22BCD004002C4364 /* jsonioutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonioutil.h; sourceTree = "<group>"; };
+		241F78DE22BCD004002C4364 /* jsonparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonparser.h; sourceTree = "<group>"; };
+		241F78DF22BCD004002C4364 /* simdprune_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simdprune_tables.h; sourceTree = "<group>"; };
+		241F78E022BCD004002C4364 /* simdjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simdjson.h; sourceTree = "<group>"; };
+		241F78E122BCD004002C4364 /* MTJSONSerialization.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MTJSONSerialization.mm; sourceTree = "<group>"; };
+		241F78E222BCD004002C4364 /* parsedjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parsedjson.h; sourceTree = "<group>"; };
+		241F78E422BCD004002C4364 /* portability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = portability.h; sourceTree = "<group>"; };
+		241F78E522BCD004002C4364 /* common_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common_defs.h; sourceTree = "<group>"; };
+		241F78E622BCD004002C4364 /* numberparsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = numberparsing.h; sourceTree = "<group>"; };
+		241F78E722BCD004002C4364 /* jsonminifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonminifier.h; sourceTree = "<group>"; };
+		241F78E822BCD004002C4364 /* simdutf8check.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simdutf8check.h; sourceTree = "<group>"; };
+		241F78E922BCD004002C4364 /* simdjson_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = simdjson_version.h; sourceTree = "<group>"; };
+		241F78EA22BCD004002C4364 /* stringparsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringparsing.h; sourceTree = "<group>"; };
+		241F78EB22BCD004002C4364 /* stage2_build_tape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stage2_build_tape.h; sourceTree = "<group>"; };
+		241F78EC22BCD004002C4364 /* jsonformatutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonformatutils.h; sourceTree = "<group>"; };
+		241F78ED22BCD004002C4364 /* stage1_find_marks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stage1_find_marks.h; sourceTree = "<group>"; };
+		241F78F122BCD1D8002C4364 /* package.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = package.json; sourceTree = "<group>"; };
+		241F78F222BCD1D8002C4364 /* package-lock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "package-lock.json"; sourceTree = "<group>"; };
+		241F78F622BCD1F6002C4364 /* marine_ik.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = marine_ik.json; sourceTree = "<group>"; };
+		241F78F722BCD1F6002C4364 /* update-center.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "update-center.json"; sourceTree = "<group>"; };
+		241F78F822BCD1F6002C4364 /* github_events.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = github_events.json; sourceTree = "<group>"; };
+		241F78F922BCD1F6002C4364 /* mesh.pretty.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mesh.pretty.json; sourceTree = "<group>"; };
+		241F78FA22BCD1F6002C4364 /* gsoc-2018.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gsoc-2018.json"; sourceTree = "<group>"; };
+		241F78FB22BCD1F6002C4364 /* mesh.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mesh.json; sourceTree = "<group>"; };
+		241F78FC22BCD1F6002C4364 /* instruments.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = instruments.json; sourceTree = "<group>"; };
+		241F78FD22BCD1F6002C4364 /* twitterescaped.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitterescaped.json; sourceTree = "<group>"; };
+		241F78FE22BCD1F6002C4364 /* random.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = random.json; sourceTree = "<group>"; };
+		241F790022BCD1F6002C4364 /* truenull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = truenull.json; sourceTree = "<group>"; };
+		241F790122BCD1F6002C4364 /* demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo.json; sourceTree = "<group>"; };
+		241F790222BCD1F6002C4364 /* flatadversarial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = flatadversarial.json; sourceTree = "<group>"; };
+		241F790322BCD1F6002C4364 /* adversarial.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = adversarial.json; sourceTree = "<group>"; };
+		241F790522BCD1F6002C4364 /* google_maps_api_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = google_maps_api_response.json; sourceTree = "<group>"; };
+		241F790622BCD1F6002C4364 /* che-2.geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "che-2.geo.json"; sourceTree = "<group>"; };
+		241F790722BCD1F6002C4364 /* che-3.geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "che-3.geo.json"; sourceTree = "<group>"; };
+		241F790822BCD1F6002C4364 /* twitter_api_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_api_response.json; sourceTree = "<group>"; };
+		241F790922BCD1F6002C4364 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		241F790A22BCD1F6002C4364 /* che-1.geo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "che-1.geo.json"; sourceTree = "<group>"; };
+		241F790B22BCD1F6002C4364 /* twitter_api_compact_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_api_compact_response.json; sourceTree = "<group>"; };
+		241F790C22BCD1F6002C4364 /* google_maps_api_compact_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = google_maps_api_compact_response.json; sourceTree = "<group>"; };
+		241F790D22BCD1F6002C4364 /* repeat.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = repeat.json; sourceTree = "<group>"; };
+		241F790E22BCD1F6002C4364 /* twitter_timeline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter_timeline.json; sourceTree = "<group>"; };
+		241F790F22BCD1F6002C4364 /* numbers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = numbers.json; sourceTree = "<group>"; };
+		241F791022BCD1F6002C4364 /* canada.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = canada.json; sourceTree = "<group>"; };
+		241F791122BCD1F6002C4364 /* twitter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = twitter.json; sourceTree = "<group>"; };
+		241F791222BCD1F6002C4364 /* apache_builds.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = apache_builds.json; sourceTree = "<group>"; };
+		241F791322BCD1F6002C4364 /* citm_catalog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = citm_catalog.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		241F78A022BCCFF0002C4364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241F78EE22BCD004002C4364 /* libsimdjson.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241F78B822BCCFF2002C4364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241F78C322BCCFF2002C4364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		241F789A22BCCFF0002C4364 = {
+			isa = PBXGroup;
+			children = (
+				241F78A522BCCFF0002C4364 /* MTSimdjson */,
+				241F78BE22BCCFF2002C4364 /* MTSimdjsonTests */,
+				241F78C922BCCFF2002C4364 /* MTSimdjsonUITests */,
+				241F78A422BCCFF0002C4364 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		241F78A422BCCFF0002C4364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				241F78A322BCCFF0002C4364 /* MTSimdjson.app */,
+				241F78BB22BCCFF2002C4364 /* MTSimdjsonTests.xctest */,
+				241F78C622BCCFF2002C4364 /* MTSimdjsonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		241F78A522BCCFF0002C4364 /* MTSimdjson */ = {
+			isa = PBXGroup;
+			children = (
+				241F78F522BCD1F6002C4364 /* jsonexamples */,
+				241F78D822BCD004002C4364 /* simdjson */,
+				241F78A622BCCFF0002C4364 /* AppDelegate.h */,
+				241F78A722BCCFF0002C4364 /* AppDelegate.m */,
+				241F78A922BCCFF0002C4364 /* ViewController.h */,
+				241F78AA22BCCFF0002C4364 /* ViewController.m */,
+				241F78AC22BCCFF0002C4364 /* Main.storyboard */,
+				241F78AF22BCCFF1002C4364 /* Assets.xcassets */,
+				241F78B122BCCFF1002C4364 /* LaunchScreen.storyboard */,
+				241F78B422BCCFF1002C4364 /* Info.plist */,
+				241F78B522BCCFF1002C4364 /* main.m */,
+			);
+			path = MTSimdjson;
+			sourceTree = "<group>";
+		};
+		241F78BE22BCCFF2002C4364 /* MTSimdjsonTests */ = {
+			isa = PBXGroup;
+			children = (
+				241F78BF22BCCFF2002C4364 /* MTSimdjsonTests.m */,
+				241F78C122BCCFF2002C4364 /* Info.plist */,
+			);
+			path = MTSimdjsonTests;
+			sourceTree = "<group>";
+		};
+		241F78C922BCCFF2002C4364 /* MTSimdjsonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				241F78CA22BCCFF2002C4364 /* MTSimdjsonUITests.m */,
+				241F78CC22BCCFF2002C4364 /* Info.plist */,
+			);
+			path = MTSimdjsonUITests;
+			sourceTree = "<group>";
+		};
+		241F78D822BCD004002C4364 /* simdjson */ = {
+			isa = PBXGroup;
+			children = (
+				241F78D922BCD004002C4364 /* libsimdjson.a */,
+				241F78DA22BCD004002C4364 /* padded_string.h */,
+				241F78DB22BCD004002C4364 /* MTJSONSerialization.h */,
+				241F78DC22BCD004002C4364 /* jsoncharutils.h */,
+				241F78DD22BCD004002C4364 /* jsonioutil.h */,
+				241F78DE22BCD004002C4364 /* jsonparser.h */,
+				241F78DF22BCD004002C4364 /* simdprune_tables.h */,
+				241F78E022BCD004002C4364 /* simdjson.h */,
+				241F78E122BCD004002C4364 /* MTJSONSerialization.mm */,
+				241F78E222BCD004002C4364 /* parsedjson.h */,
+				241F78E422BCD004002C4364 /* portability.h */,
+				241F78E522BCD004002C4364 /* common_defs.h */,
+				241F78E622BCD004002C4364 /* numberparsing.h */,
+				241F78E722BCD004002C4364 /* jsonminifier.h */,
+				241F78E822BCD004002C4364 /* simdutf8check.h */,
+				241F78E922BCD004002C4364 /* simdjson_version.h */,
+				241F78EA22BCD004002C4364 /* stringparsing.h */,
+				241F78EB22BCD004002C4364 /* stage2_build_tape.h */,
+				241F78EC22BCD004002C4364 /* jsonformatutils.h */,
+				241F78ED22BCD004002C4364 /* stage1_find_marks.h */,
+			);
+			path = simdjson;
+			sourceTree = "<group>";
+		};
+		241F78F522BCD1F6002C4364 /* jsonexamples */ = {
+			isa = PBXGroup;
+			children = (
+				241F78F222BCD1D8002C4364 /* package-lock.json */,
+				241F78F122BCD1D8002C4364 /* package.json */,
+				241F78F622BCD1F6002C4364 /* marine_ik.json */,
+				241F78F722BCD1F6002C4364 /* update-center.json */,
+				241F78F822BCD1F6002C4364 /* github_events.json */,
+				241F78F922BCD1F6002C4364 /* mesh.pretty.json */,
+				241F78FA22BCD1F6002C4364 /* gsoc-2018.json */,
+				241F78FB22BCD1F6002C4364 /* mesh.json */,
+				241F78FC22BCD1F6002C4364 /* instruments.json */,
+				241F78FD22BCD1F6002C4364 /* twitterescaped.json */,
+				241F78FE22BCD1F6002C4364 /* random.json */,
+				241F78FF22BCD1F6002C4364 /* small */,
+				241F790F22BCD1F6002C4364 /* numbers.json */,
+				241F791022BCD1F6002C4364 /* canada.json */,
+				241F791122BCD1F6002C4364 /* twitter.json */,
+				241F791222BCD1F6002C4364 /* apache_builds.json */,
+				241F791322BCD1F6002C4364 /* citm_catalog.json */,
+			);
+			path = jsonexamples;
+			sourceTree = "<group>";
+		};
+		241F78FF22BCD1F6002C4364 /* small */ = {
+			isa = PBXGroup;
+			children = (
+				241F790022BCD1F6002C4364 /* truenull.json */,
+				241F790122BCD1F6002C4364 /* demo.json */,
+				241F790222BCD1F6002C4364 /* flatadversarial.json */,
+				241F790322BCD1F6002C4364 /* adversarial.json */,
+				241F790422BCD1F6002C4364 /* jsoniter_scala */,
+				241F790D22BCD1F6002C4364 /* repeat.json */,
+				241F790E22BCD1F6002C4364 /* twitter_timeline.json */,
+			);
+			path = small;
+			sourceTree = "<group>";
+		};
+		241F790422BCD1F6002C4364 /* jsoniter_scala */ = {
+			isa = PBXGroup;
+			children = (
+				241F790522BCD1F6002C4364 /* google_maps_api_response.json */,
+				241F790622BCD1F6002C4364 /* che-2.geo.json */,
+				241F790722BCD1F6002C4364 /* che-3.geo.json */,
+				241F790822BCD1F6002C4364 /* twitter_api_response.json */,
+				241F790922BCD1F6002C4364 /* README.md */,
+				241F790A22BCD1F6002C4364 /* che-1.geo.json */,
+				241F790B22BCD1F6002C4364 /* twitter_api_compact_response.json */,
+				241F790C22BCD1F6002C4364 /* google_maps_api_compact_response.json */,
+			);
+			path = jsoniter_scala;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		241F78A222BCCFF0002C4364 /* MTSimdjson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241F78CF22BCCFF2002C4364 /* Build configuration list for PBXNativeTarget "MTSimdjson" */;
+			buildPhases = (
+				241F789F22BCCFF0002C4364 /* Sources */,
+				241F78A022BCCFF0002C4364 /* Frameworks */,
+				241F78A122BCCFF0002C4364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTSimdjson;
+			productName = MTSimdjson;
+			productReference = 241F78A322BCCFF0002C4364 /* MTSimdjson.app */;
+			productType = "com.apple.product-type.application";
+		};
+		241F78BA22BCCFF2002C4364 /* MTSimdjsonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241F78D222BCCFF2002C4364 /* Build configuration list for PBXNativeTarget "MTSimdjsonTests" */;
+			buildPhases = (
+				241F78B722BCCFF2002C4364 /* Sources */,
+				241F78B822BCCFF2002C4364 /* Frameworks */,
+				241F78B922BCCFF2002C4364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241F78BD22BCCFF2002C4364 /* PBXTargetDependency */,
+			);
+			name = MTSimdjsonTests;
+			productName = MTSimdjsonTests;
+			productReference = 241F78BB22BCCFF2002C4364 /* MTSimdjsonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		241F78C522BCCFF2002C4364 /* MTSimdjsonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241F78D522BCCFF2002C4364 /* Build configuration list for PBXNativeTarget "MTSimdjsonUITests" */;
+			buildPhases = (
+				241F78C222BCCFF2002C4364 /* Sources */,
+				241F78C322BCCFF2002C4364 /* Frameworks */,
+				241F78C422BCCFF2002C4364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				241F78C822BCCFF2002C4364 /* PBXTargetDependency */,
+			);
+			name = MTSimdjsonUITests;
+			productName = MTSimdjsonUITests;
+			productReference = 241F78C622BCCFF2002C4364 /* MTSimdjsonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		241F789B22BCCFF0002C4364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "大兵布莱恩特";
+				TargetAttributes = {
+					241F78A222BCCFF0002C4364 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					241F78BA22BCCFF2002C4364 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 241F78A222BCCFF0002C4364;
+					};
+					241F78C522BCCFF2002C4364 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 241F78A222BCCFF0002C4364;
+					};
+				};
+			};
+			buildConfigurationList = 241F789E22BCCFF0002C4364 /* Build configuration list for PBXProject "MTSimdjson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 241F789A22BCCFF0002C4364;
+			productRefGroup = 241F78A422BCCFF0002C4364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				241F78A222BCCFF0002C4364 /* MTSimdjson */,
+				241F78BA22BCCFF2002C4364 /* MTSimdjsonTests */,
+				241F78C522BCCFF2002C4364 /* MTSimdjsonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		241F78A122BCCFF0002C4364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241F791A22BCD1F6002C4364 /* instruments.json in Resources */,
+				241F78F322BCD1D8002C4364 /* package.json in Resources */,
+				241F792A22BCD1F6002C4364 /* twitter_timeline.json in Resources */,
+				241F792D22BCD1F6002C4364 /* twitter.json in Resources */,
+				241F792922BCD1F6002C4364 /* repeat.json in Resources */,
+				241F791C22BCD1F6002C4364 /* random.json in Resources */,
+				241F791922BCD1F6002C4364 /* mesh.json in Resources */,
+				241F791B22BCD1F6002C4364 /* twitterescaped.json in Resources */,
+				241F791622BCD1F6002C4364 /* github_events.json in Resources */,
+				241F792022BCD1F6002C4364 /* adversarial.json in Resources */,
+				241F791E22BCD1F6002C4364 /* demo.json in Resources */,
+				241F792522BCD1F6002C4364 /* README.md in Resources */,
+				241F792122BCD1F6002C4364 /* google_maps_api_response.json in Resources */,
+				241F791822BCD1F6002C4364 /* gsoc-2018.json in Resources */,
+				241F78B322BCCFF1002C4364 /* LaunchScreen.storyboard in Resources */,
+				241F78F422BCD1D8002C4364 /* package-lock.json in Resources */,
+				241F792C22BCD1F6002C4364 /* canada.json in Resources */,
+				241F791522BCD1F6002C4364 /* update-center.json in Resources */,
+				241F791422BCD1F6002C4364 /* marine_ik.json in Resources */,
+				241F791D22BCD1F6002C4364 /* truenull.json in Resources */,
+				241F792322BCD1F6002C4364 /* che-3.geo.json in Resources */,
+				241F791F22BCD1F6002C4364 /* flatadversarial.json in Resources */,
+				241F791722BCD1F6002C4364 /* mesh.pretty.json in Resources */,
+				241F78B022BCCFF1002C4364 /* Assets.xcassets in Resources */,
+				241F792222BCD1F6002C4364 /* che-2.geo.json in Resources */,
+				241F792622BCD1F6002C4364 /* che-1.geo.json in Resources */,
+				241F792722BCD1F6002C4364 /* twitter_api_compact_response.json in Resources */,
+				241F78AE22BCCFF0002C4364 /* Main.storyboard in Resources */,
+				241F792B22BCD1F6002C4364 /* numbers.json in Resources */,
+				241F792422BCD1F6002C4364 /* twitter_api_response.json in Resources */,
+				241F792E22BCD1F6002C4364 /* apache_builds.json in Resources */,
+				241F792F22BCD1F6002C4364 /* citm_catalog.json in Resources */,
+				241F792822BCD1F6002C4364 /* google_maps_api_compact_response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241F78B922BCCFF2002C4364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241F78C422BCCFF2002C4364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		241F789F22BCCFF0002C4364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241F78AB22BCCFF0002C4364 /* ViewController.m in Sources */,
+				241F78B622BCCFF1002C4364 /* main.m in Sources */,
+				241F78A822BCCFF0002C4364 /* AppDelegate.m in Sources */,
+				241F78EF22BCD004002C4364 /* MTJSONSerialization.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241F78B722BCCFF2002C4364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241F78C022BCCFF2002C4364 /* MTSimdjsonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		241F78C222BCCFF2002C4364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241F78CB22BCCFF2002C4364 /* MTSimdjsonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		241F78BD22BCCFF2002C4364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241F78A222BCCFF0002C4364 /* MTSimdjson */;
+			targetProxy = 241F78BC22BCCFF2002C4364 /* PBXContainerItemProxy */;
+		};
+		241F78C822BCCFF2002C4364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 241F78A222BCCFF0002C4364 /* MTSimdjson */;
+			targetProxy = 241F78C722BCCFF2002C4364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		241F78AC22BCCFF0002C4364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241F78AD22BCCFF0002C4364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		241F78B122BCCFF1002C4364 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				241F78B222BCCFF1002C4364 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		241F78CD22BCCFF2002C4364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		241F78CE22BCCFF2002C4364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		241F78D022BCCFF2002C4364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XRGJVLPNP;
+				INFOPLIST_FILE = MTSimdjson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MTSimdjson/simdjson",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simdjson.test.MTSimdjson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		241F78D122BCCFF2002C4364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7XRGJVLPNP;
+				INFOPLIST_FILE = MTSimdjson/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MTSimdjson/simdjson",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simdjson.test.MTSimdjson;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		241F78D322BCCFF2002C4364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MTSimdjsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simdjson.test.MTSimdjsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTSimdjson.app/MTSimdjson";
+			};
+			name = Debug;
+		};
+		241F78D422BCCFF2002C4364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MTSimdjsonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simdjson.test.MTSimdjsonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MTSimdjson.app/MTSimdjson";
+			};
+			name = Release;
+		};
+		241F78D622BCCFF2002C4364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MTSimdjsonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simdjson.test.MTSimdjsonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTSimdjson;
+			};
+			name = Debug;
+		};
+		241F78D722BCCFF2002C4364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MTSimdjsonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.simdjson.test.MTSimdjsonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MTSimdjson;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		241F789E22BCCFF0002C4364 /* Build configuration list for PBXProject "MTSimdjson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241F78CD22BCCFF2002C4364 /* Debug */,
+				241F78CE22BCCFF2002C4364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241F78CF22BCCFF2002C4364 /* Build configuration list for PBXNativeTarget "MTSimdjson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241F78D022BCCFF2002C4364 /* Debug */,
+				241F78D122BCCFF2002C4364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241F78D222BCCFF2002C4364 /* Build configuration list for PBXNativeTarget "MTSimdjsonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241F78D322BCCFF2002C4364 /* Debug */,
+				241F78D422BCCFF2002C4364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241F78D522BCCFF2002C4364 /* Build configuration list for PBXNativeTarget "MTSimdjsonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				241F78D622BCCFF2002C4364 /* Debug */,
+				241F78D722BCCFF2002C4364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 241F789B22BCCFF0002C4364 /* Project object */;
+}
